@@ -1,3 +1,5 @@
+## Screenshot
+![](https://github.com/christlee1989/vue-mobile-log/blob/master/screenshot/screenshot.png)  
 
 ## Requirements
 
@@ -5,7 +7,7 @@
 
 ## Docs
 
-+ [中文文档](建设中)
++ 中文文档(建设中)
 + English(working)
 
 ## Quick Start
@@ -18,8 +20,8 @@ npm install vue-mobile-log
 **2.import:**
 ``` bash
 import Vlog from 'vue-mobile-log'
-Vue.use(Vlog);//or
- 
+Vue.use(Vlog);
+//or
 Vue.use(Vlog,options)
 ```
 
