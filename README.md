@@ -1,2 +1,2 @@
-# vue-log
+# vue-mobile-log
 A Vue log util
