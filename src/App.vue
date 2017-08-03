@@ -21,7 +21,7 @@
                 3:'error'
             }
             for(let i=1;i<100;i++){
-                this.$vlog[methods[i % 4]]('测试日志'+i)
+                this.$vlog[methods[i % 4]]('test log content!'+i)
             }
         }
     }

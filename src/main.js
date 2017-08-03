@@ -3,7 +3,7 @@ import App from './App'
 import Vlog from './index'
 
 Vue.use(Vlog,{
-    level:'error',
+    level:'debug',
     env:'development'
 });
 
