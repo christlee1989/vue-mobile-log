@@ -1,2 +1,2 @@
-# vue-log
-A Vue log util
+# vue-mobile-log
+A mobile Vue log util
