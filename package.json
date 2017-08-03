@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "A Vue.js project",
     "author": "liyunfeng <liyunfeng>",
-    "private": true,
+    "main":"./dist/vlog.min.js",
     "scripts": {
         "dev": "node build/dev-server.js",
         "start": "node build/dev-server.js",
