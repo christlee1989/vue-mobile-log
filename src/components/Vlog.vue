@@ -85,7 +85,7 @@
                 }
             },
             _print(level,msg){
-                if(this.env === 'development' && (levelWeights[level] >= levelWeights[this.level])){
+                if(msg && this.env === 'development' && (levelWeights[level] >= levelWeights[this.level])){
                     this.logData.push({
                         level,
                         msg,
@@ -256,8 +256,7 @@
                             content:' ';
                             position:absolute;
                             left:4px;
-                            top:50%;
-                            margin-top:-6px;
+                            top:2px;
                             background:url(../assets/warn.png) center no-repeat;
                             background-size:12px 12px;
                             display:inline-block;
@@ -273,8 +272,7 @@
                              content:' ';
                              position:absolute;
                              left:4px;
-                             top:50%;
-                             margin-top:-6px;
+                             top:2px;
                              background:url(../assets/error.png) center no-repeat;
                              background-size:12px 12px;
                              display:inline-block;

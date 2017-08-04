@@ -47,6 +47,17 @@ const plugin = {
                 this.$vlog = vue.$vlog
             }
         })
+
+        //registered global error handler
+        vue.config.errorHandler = function (err, vm, info) {
+            vm.$vlog.error(err.stack);
+            console.error(err);
+        }
+        //registered global warn handler
+        vue.config.warnHandler = function (msg, vm, trace) {
+            vm.$vlog.warn(msg);
+            console.warn(msg);
+        }
     }
 }
 

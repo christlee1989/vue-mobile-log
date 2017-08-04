@@ -12,8 +12,14 @@
         components: {
 
         },
+        methods:{
+            test(){
+                throw new Error('test error');
+            }
+        },
         mounted(){
-            console.log(Vue.$vlog);
+            console.log(this);
+            this.test();
             let methods = {
                 0:'debug',
                 1:'info',
