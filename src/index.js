@@ -38,7 +38,6 @@ const plugin = {
             },
         }
 
-        // all Vux's plugins are included in this.$vux
         if (!vue.$vlog) {
             vue.$vlog = vlog
         }
