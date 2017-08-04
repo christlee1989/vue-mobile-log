@@ -2,8 +2,13 @@
     "name": "vue-mobile-log",
     "version": "1.0.0",
     "description": "A Vue.js project",
-    "author": "liyunfeng <liyunfeng>",
+    "author": "ChristLee <Li YunFeng>",
     "main":"./dist/vlog.min.js",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/christlee1989/vue-mobile-log/issues"
+    },
+    "homepage": "https://github.com/christlee1989/vue-mobile-log#readme",
     "scripts": {
         "dev": "node build/dev-server.js",
         "start": "node build/dev-server.js",
