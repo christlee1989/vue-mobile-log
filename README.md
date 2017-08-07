@@ -26,6 +26,7 @@ Vue.use(Vlog,options)
 ```
 
 options:
+
 Parameter | Type | Description
 --------- | ---- | -----------
 env | `string` | when production does not open the console
