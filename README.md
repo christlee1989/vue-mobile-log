@@ -47,6 +47,12 @@ this.$vlog.warn(logMsg);
 this.$vlog.error(logMsg);
 ```
 
+##Coming...
+
+* in production,log is saved to the client,and sent to the server at some point
+* execute code like browser debug console
+* more Tag with log for filter
+* and more...
 
 ## License
 
