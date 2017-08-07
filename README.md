@@ -26,10 +26,11 @@ Vue.use(Vlog,options)
 ```
 
 options:
-Parameter | Type | Description
---------- | ---- | -----------
-env | `string` | when production does not open the console
-level | `string` | debug,info,warn,error
+
+Parameter | Type | Default | Description
+--------- | ---- | ------- | -----------
+env | `string` | development | when production does not open the console
+level | `string` | debug | debug,info,warn,error
 
 **3.print log:**
 ```js
