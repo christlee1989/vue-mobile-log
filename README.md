@@ -18,7 +18,7 @@ npm install vue-mobile-log
 ```
 
 **2.import:**
-``` bash
+``` js
 import Vlog from 'vue-mobile-log'
 Vue.use(Vlog);
 //or
@@ -26,22 +26,20 @@ Vue.use(Vlog,options)
 ```
 
 options:
-```bash
-{
-    env:'development',//when production does not open the console
-    level:'debug' //debug,info,warn,error
-}
-```
+Parameter | Type | Description
+--------- | ---- | -----------
+env | `string` | when production does not open the console
+level | `string` | debug,info,warn,error
 
 **3.print log:**
-```bash
-global call:
+```js
+//global call:
 Vue.$vlog.debug(logMsg);
 Vue.$vlog.info(logMsg);
 Vue.$vlog.warn(logMsg);
 Vue.$vlog.error(logMsg);
  
-in component:
+//in component:
 this.$vlog.debug(logMsg);
 this.$vlog.info(logMsg);
 this.$vlog.warn(logMsg);
